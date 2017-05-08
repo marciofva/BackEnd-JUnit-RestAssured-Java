@@ -1,0 +1,33 @@
+{
+   "$schema":"http://json-schema.org/draft-04/schema#",
+   "type":"object",
+   "description":"CEP information",
+   "properties":{
+      "cep":{
+         "type":"string"
+      },
+      "tipoDeLogradouro":{
+         "type":"string"
+      },
+      "logradouro":{
+         "type":"string"
+      },
+      "bairro":{
+         "type":"string"
+      },
+      "cidade":{
+         "type":"string"
+      },
+      "estado":{
+         "type":"string"
+      }
+   },
+   "required":[
+      "cep",
+      "tipoDeLogradouro",
+      "logradouro",
+      "bairro",
+      "cidade",
+      "estado"
+   ]
+}
